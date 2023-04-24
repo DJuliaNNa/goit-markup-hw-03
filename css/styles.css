@@ -1,0 +1,219 @@
+:root {
+  /* Color */
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+  /* Fonds */
+  --primary-fonds: "Roboto",sans-serif;
+  --secondary-fond: "Raleway",sans-serif;
+}
+body {
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  background-color: white;
+  color: var(--color-slate);
+}
+/* Base style */
+.list {
+  list-style: none;
+  
+}
+.link {
+  text-decoration: none;
+}
+/* Start */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.contacts {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+.header-contacts {
+  font-style: normal;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-ocean);
+}
+
+.colortext {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-navy-blue);
+}
+
+.btn_hero {
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-white);
+  background-color: var(--color-iris);
+}
+.btn_hero:hover,
+.btn_hero:focus {
+  background-color: var(--color-ocean);
+}
+.btn-portfolio {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+  width: 116px;
+  height: 48px;
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
+}
+.btn-portfolio:hover,
+:focus {
+background-color:var(--color-ocean);
+color: var(--color-white);
+}
+/* feature */
+.hidden {
+  display: none;
+}
+/* Heder style */
+.order {
+  background-color: var(--color-navy-blue-modal);
+
+}
+.order-title {
+  font-size: 56px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.feature-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature-subtitle {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.tim {
+  background-color: var(--color-cloud);
+}
+.header-nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-nav-item:hover,
+.header-nav-item:focus {
+  color: #404bbf;
+}
+.team-list {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+
+
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-navy-blue);
+  letter-spacing: 0.02em 
+  
+}
+.tim-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.paragraph {
+  line-height: 1.5;
+  font-size: 16px;
+  background: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+.row-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+.card-title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+
+.footer {
+  background-color: var(--color-navy-blue);
+}
+.footer-colortext {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
