@@ -12,49 +12,54 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./modern-normalize.css" />
     <!-- Custome styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <a class="header-logo link" href="./index.html"
-          >Web<span class="colortext">Studio</span></a
-        >
-        <ul class="header-nav-basic list">
-          <li class="header-nav-item">
-            <a class="header-nav-item link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-item link" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-item link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-contacts">
-        <ul class="contacts-title list">
-          <li>
-            <a class="contacts link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts link" href="tel:+110001111111"
-              >+11(000)111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-container">
+        <nav class="header-nav">
+          <a class="header-logo link" href="./index.html"
+            >Web<span class="colortext">Studio</span></a
+          >
+          <ul class="header-nav-basic list">
+            <li class="header-nav-item">
+              <a class="header-nav-item link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-item link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-item link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-contacts">
+          <ul class="contacts-title list">
+            <li>
+              <a class="contacts link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contacts link" href="tel:+110001111111"
+                >+11(000)111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Order -->
       <section class="order">
-        <h1 class="order-title">Effective Solutions for Your Business</h1>
-        <button class="btn_hero" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="order-title">Effective Solutions for Your Business</h1>
+          <button class="btn_hero" type="button">Order Service</button>
+        </div>
       </section>
       <!-- Feature -->
       <section class="feature">
